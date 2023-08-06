@@ -36,7 +36,7 @@ const Home: NextPage = () => {
       {!isHasAnsweredLoading ? (
         !hasAnswered ? (
           <>
-            <h1>The Question</h1>
+            <h1>Question</h1>
             <p>Answer correctly to claim the NFT.</p>
             <Quiz />
           </>
